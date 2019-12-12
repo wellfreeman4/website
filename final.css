@@ -1,0 +1,32 @@
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto auto; 
+  background-color: 
+  padding: 10px;
+  column-rule-width: 40%;
+padding-left: 240px; top:250px; position:relative; z-index: 2;
+}
+
+
+
+p{ font-size: 30px
+    }
+
+#band{ position:absolute; left:330px; float:none; top:150; z-index: 1;
+    
+}
+
+#middle{ position:absolute; float:none; top:680px; left:630px;
+    
+}
+
+#app{ position: absolute;  left:1000px; ; float:none; top:160px
+}
+
+h1{ font-size: 45px; position: absolute; left:560px; top:10px; z-index: 3; background:white ;
+    
+}
+    
+#bar{ width:1420px; height:70px; position: absolute; top:30px; background: lightblue; z-index: 1;
+    
+}
